@@ -13,7 +13,13 @@
 [core]
 	ignorecase = false
 	editor = nvim
+	pager = delta # use delta for diffing
 [alias]
 	lg = log --graph --abbrev-commit --decorate
 [init]
 	defaultBranch = main
+[interactive]
+  diffFilter = delta --color-only
+[delta]
+	syntax-theme = Monokai Extended
+	line-numbers = true
