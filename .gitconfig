@@ -19,7 +19,7 @@
 [init]
 	defaultBranch = main
 [interactive]
-  diffFilter = delta --color-only
+	diffFilter = delta --color-only
 [delta]
 	syntax-theme = Monokai Extended
 	line-numbers = true
