@@ -1,0 +1,19 @@
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[user]
+	name = portenez
+	email = info@vgarcia.dev 
+[color]
+	ui = true
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[core]
+	ignorecase = false
+	editor = nvim
+[alias]
+	lg = log --graph --abbrev-commit --decorate
+[init]
+	defaultBranch = main
