@@ -17,6 +17,8 @@ brew "autoconf"
 brew "automake"
 # Cross-platform make
 brew "cmake"
+# Defines a standard way of committing rules and communicating it
+brew "commitizen"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Command-line fuzzy finder written in Go
@@ -31,6 +33,8 @@ brew "libksba"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Git wrapper for GitLab
+brew "lab"
 # Scalable distributed version control system
 brew "mercurial"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -41,6 +45,8 @@ brew "p7zip"
 brew "packer"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
