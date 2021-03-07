@@ -15,6 +15,8 @@ brew "ansible"
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Cross-platform make
 brew "cmake"
 # Defines a standard way of committing rules and communicating it
@@ -59,6 +61,8 @@ brew "thefuck"
 brew "watchman"
 # Yet Another Dotfiles Manager
 brew "yadm"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Monospaced font that includes programming ligatures
 cask "font-cascadia-code"
 cask "font-caskaydia-cove-nerd-font"
